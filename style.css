@@ -1,0 +1,18 @@
+h1{
+    font-size: 50px !important;
+}
+.btn-success:hover{
+background-color: red;
+}
+canvas{
+    animation-name: colorchange;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    transform: scaleX(-1);
+}
+@keyframes colorchange {
+    0%{box-shadow: 1px 1px 100px purple;}
+    25%{box-shadow: 1px 1px 100px blue;}
+    75%{box-shadow: 1px 1px 100px teal;}
+    100%{box-shadow: 1px 1px 100px purple;}
+}
